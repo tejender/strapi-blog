@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .nav-li{
+
+        @apply lg:py-5 text-center pb-2 lg:px-3 
+    }
+    .nav-li-active {
+        @apply border-green-500 border-b-2
+    }
+}
