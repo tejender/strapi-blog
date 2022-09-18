@@ -5,7 +5,6 @@ const nextConfig = {
   images:{
     domains:["bit.ly"]
   },
-  distDir:'production'
 }
 
 module.exports = nextConfig
